@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`findElement utils findElements should find elements 1`] = `
+Array [
+  Object {
+    "element-6066-11e4-a52e-4f735466cecf": "foobar",
+  },
+  Object {
+    "element-6066-11e4-a52e-4f735466cecf": "foobar",
+  },
+]
+`;
+
+exports[`findElement utils findElements should find elements with xpath 1`] = `
+Array [
+  Object {
+    "element-6066-11e4-a52e-4f735466cecf": "foobar",
+  },
+  Object {
+    "element-6066-11e4-a52e-4f735466cecf": "foobar",
+  },
+]
+`;
+
+exports[`getPrototype 1`] = `
+Object {
+  "acceptAlert": Object {
+    "value": 56,
+  },
+  "addCookie": Object {
+    "value": 49,
+  },
+  "back": Object {
+    "value": 8,
+  },
+  "closeWindow": Object {
+    "value": 13,
+  },
+  "createWindow": Object {
+    "value": 15,
+  },
+  "deleteAllCookies": Object {
+    "value": 50,
+  },
+  "deleteCookie": Object {
+    "value": 52,
+  },
+  "deleteSession": Object {
+    "value": 2,
+  },
+  "dismissAlert": Object {
+    "value": 55,
+  },
+  "elementClear": Object {
+    "value": 43,
+  },
+  "elementClick": Object {
+    "value": 42,
+  },
+  "elementSendKeys": Object {
+    "value": 44,
+  },
+  "executeAsyncScript": Object {
+    "value": 47,
+  },
+  "executeScript": Object {
+    "value": 46,
+  },
+  "findElement": Object {
+    "value": 25,
+  },
+  "findElementFromElement": Object {
+    "value": 29,
+  },
+  "findElementFromShadowRoot": Object {
+    "value": 26,
+  },
+  "findElements": Object {
+    "value": 27,
+  },
+  "findElementsFromElement": Object {
+    "value": 30,
+  },
+  "findElementsFromShadowRoot": Object {
+    "value": 28,
+  },
+  "forward": Object {
+    "value": 9,
+  },
+  "fullscreenWindow": Object {
+    "value": 24,
+  },
+  "getActiveElement": Object {
+    "value": 32,
+  },
+  "getAlertText": Object {
+    "value": 57,
+  },
+  "getAllCookies": Object {
+    "value": 48,
+  },
+  "getElementAttribute": Object {
+    "value": 35,
+  },
+  "getElementCSSValue": Object {
+    "value": 37,
+  },
+  "getElementComputedLabel": Object {
+    "value": 62,
+  },
+  "getElementComputedRole": Object {
+    "value": 61,
+  },
+  "getElementProperty": Object {
+    "value": 36,
+  },
+  "getElementRect": Object {
+    "value": 40,
+  },
+  "getElementShadowRoot": Object {
+    "value": 31,
+  },
+  "getElementTagName": Object {
+    "value": 39,
+  },
+  "getElementText": Object {
+    "value": 38,
+  },
+  "getNamedCookie": Object {
+    "value": 51,
+  },
+  "getPageSource": Object {
+    "value": 45,
+  },
+  "getTimeouts": Object {
+    "value": 4,
+  },
+  "getTitle": Object {
+    "value": 11,
+  },
+  "getUrl": Object {
+    "value": 6,
+  },
+  "getWindowHandle": Object {
+    "value": 12,
+  },
+  "getWindowHandles": Object {
+    "value": 16,
+  },
+  "getWindowRect": Object {
+    "value": 20,
+  },
+  "isElementDisplayed": Object {
+    "value": 34,
+  },
+  "isElementEnabled": Object {
+    "value": 41,
+  },
+  "isElementSelected": Object {
+    "value": 33,
+  },
+  "maximizeWindow": Object {
+    "value": 22,
+  },
+  "minimizeWindow": Object {
+    "value": 23,
+  },
+  "navigateTo": Object {
+    "value": 7,
+  },
+  "newSession": Object {
+    "value": 1,
+  },
+  "performActions": Object {
+    "value": 53,
+  },
+  "printPage": Object {
+    "value": 17,
+  },
+  "refresh": Object {
+    "value": 10,
+  },
+  "releaseActions": Object {
+    "value": 54,
+  },
+  "sendAlertText": Object {
+    "value": 58,
+  },
+  "setTimeouts": Object {
+    "value": 5,
+  },
+  "setWindowRect": Object {
+    "value": 21,
+  },
+  "status": Object {
+    "value": 3,
+  },
+  "switchToFrame": Object {
+    "value": 18,
+  },
+  "switchToParentFrame": Object {
+    "value": 19,
+  },
+  "switchToWindow": Object {
+    "value": 14,
+  },
+  "takeElementScreenshot": Object {
+    "value": 60,
+  },
+  "takeScreenshot": Object {
+    "value": 59,
+  },
+}
+`;
+
+exports[`transformExecuteResult multiple results 1`] = `
+Array [
+  "foobar",
+  Object {
+    "element-6066-11e4-a52e-4f735466cecf": "foobar",
+  },
+  42,
+]
+`;
+
+exports[`validate should do a proper request 1`] = `
+Object {
+  "elementId": "123",
+  "using": "css selector",
+  "value": "#body",
+}
+`;
+
+exports[`validate should do a proper request with non required params 1`] = `
+Object {
+  "customParam": 123,
+  "elementId": "123",
+  "using": "css selector",
+  "value": "#body",
+}
+`;
